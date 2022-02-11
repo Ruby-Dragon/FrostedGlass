@@ -13,7 +13,7 @@
 
 .leftBox{
 	width: 40%;
-	height: 75%;
+	height: 37rem;
   float: left;
 	background-color: red;
 	margin: 0px;
@@ -22,7 +22,7 @@
 
 .rightBox{
 	width: 60%;
-	height: 75%;
+	height: 37rem;
   float: left;
 	background-color: blue;
 	margin: 0px;
@@ -33,8 +33,7 @@
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 2.5rem;
-	margin-top: 4rem;
-	height: 60rem;
+	height: 90rem;
 }
 
 html, body{
@@ -43,9 +42,10 @@ html, body{
 }
 
 .footer{
-	background-color: #292929;
+	background-color: rgb(38, 38, 38);
+	background-color: rgba(38, 38, 38, .65);
   width: 100%;
-  height: 2.5rem;
+  height: 6rem;
   padding: 0px;
   display: flex;
   font-size: 20px;
