@@ -65,7 +65,7 @@ html, body{
 	color: white;
 	font-family: Mplus2pReg;
 	font-size: 3rem;
-	margin-top: 0.5rem;
+	margin-top: 0.7rem;
 	margin-left: 0.5rem;
 	text-decoration: none;
 	opacity: 100;
@@ -79,4 +79,14 @@ html, body{
 @font-face{
 	font-family: Mplus2pLi;
 	src:url(fonts/mplus-2p-light.ttf);
+}
+
+.headerItem{
+	color: white;
+	font-family: Mplus2pLi;
+	font-size: 1rem;
+	margin-top: 2.3rem;
+	margin-left: 2rem;
+	text-decoration: none;
+	opacity: 100;
 }
