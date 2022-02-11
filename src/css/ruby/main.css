@@ -59,3 +59,11 @@ html, body{
 	position: relative;
   min-height: 100vh;
 }
+
+#headerName{
+	color: white;
+	font-family: Helvetica;
+	font-size: 3rem;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
