@@ -62,8 +62,19 @@ html, body{
 
 #headerName{
 	color: white;
-	font-family: Helvetica;
+	font-family: Mplus2pReg;
 	font-size: 3rem;
 	margin-top: 0.5rem;
 	margin-left: 0.5rem;
+	text-decoration: none;
+}
+
+@font-face{
+	font-family: Mplus2pReg;
+	src:url(fonts/mplus-2p-regular.ttf);
+}
+
+@font-face{
+	font-family: Mplus2pLi;
+	src:url(fonts/mplus-2p-light.ttf);
 }
