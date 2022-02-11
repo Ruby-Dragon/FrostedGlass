@@ -1,7 +1,7 @@
 .titleBox{
 	background-color: #293347;
     width: 100%;
-    height: 10%;
+    height: 4rem;
     top: 0;
     padding: 0px;
     display: flex;
@@ -31,8 +31,9 @@
 .floatContainer{
 	margin: 0px;
 	padding: 0px;
-	margin-top: 4.55%;
-	height: 90%;
+	margin-bottom: 2.5rem;
+	margin-top: 4rem;
+	height: 50rem;
 }
 
 html, body{
@@ -40,9 +41,20 @@ html, body{
 }
 
 .footer{
-	width: 100%;
-	height: 5%;
-	padding: 0;
-	margin: 0;
-	background-color: green;
+	background-color: #293347;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0px;
+  display: flex;
+  font-size: 20px;
+  font-family: helvetica;
+  color: white;
+	position: absolute;
+  z-index: 998;
+  bottom: 0;
+}
+
+.pageContainer{
+	position: relative;
+  min-height: 100vh;
 }
