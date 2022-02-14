@@ -91,3 +91,20 @@ html, body{
 	text-decoration: none;
 	opacity: 100;
 }
+
+h2{
+	color: white;
+	font-family: Mplus2pReg;
+	text-decoration: none;
+	opacity: 100;
+}
+
+.leftBoxContent{
+	margin-top: 6rem;
+	margin-left: 2rem;
+	font-family: Mplus2pReg;
+}
+
+.leftBoxContent h2{
+	font-size: 2rem;
+}
