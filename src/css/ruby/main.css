@@ -22,7 +22,7 @@
 	height: 37rem;
   float: left;
 	background-color: rgb(45, 45, 45);
-	background-color: rgba(45, 45, 45, .60);
+	background-color: rgba(30, 30, 30, 0.8);
 	margin: 0px;
 	margin-top: -2px;
 	position: absolute;
@@ -32,7 +32,7 @@
 	border-style: solid;
 	border-left-style: none;
 	border-right-style: solid;
-	border-color: rgba(30, 30, 30, 0.60);
+	border-color: rgba(25, 25, 25, 0.80);
 	border-width: 1px;
 }
 
