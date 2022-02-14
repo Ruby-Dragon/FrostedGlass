@@ -85,8 +85,8 @@ html, body{
 .headerItem{
 	color: white;
 	font-family: Mplus2pLi;
-	font-size: 1rem;
-	margin-top: 2.3rem;
+	font-size: 1.3rem;
+	margin-top: 2rem;
 	margin-left: 2.5rem;
 	text-decoration: none;
 	opacity: 100;
@@ -107,4 +107,17 @@ h2{
 
 .leftBoxContent h2{
 	font-size: 2rem;
+}
+
+.leftBoxContent p{
+	font-size: 1rem;
+	margin-top: 2rem;
+	margin-left: 1.2rem;
+	color: white;
+	font-family: Mplus2pLi;
+	text-decoration: none;
+	opacity: 100;
+	width: 80%;
+	letter-spacing: 0.1rem;
+	line-height: 1.2rem;
 }
