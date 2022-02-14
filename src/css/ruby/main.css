@@ -154,4 +154,15 @@ h2{
 	margin-left: 2rem;
 	font-size: 0.7rem;
 	margin-top: 0.6rem;
+	color: var(--primaryColor);
+}
+
+.sectionHeader{
+	color: var(--primaryColor);
+	top: 39rem;
+	font-size: 3rem;
+	font-family: Mplus2pReg;
+	position: absolute;
+	text-align: center;
+	margin-left: 32%;
 }
