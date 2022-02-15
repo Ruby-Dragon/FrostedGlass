@@ -1,13 +1,15 @@
 html, body{
     height: 100%;
 		background-color: #FAFAFA;
-		--darkerGlass : rgba(30, 30, 30, 0.8);
+		--darkerGlass : rgba(200, 200, 200, 0.8);
 		--darkGlass : rgba(250, 250, 250, .85);
 		--mediumGlass: rgba(225, 225, 225, 0.75);
 		--lightGlass: rgba(250, 250, 250, 0.75);
 		--primaryColor: rgb(61, 133, 80);
 		--secondaryColor: rgb(55, 163, 84);
 		--glassBorder: rgba(250,250,250,0.5);
+		--regFont: ;
+		--thinFont: ;
 }
 
 .titleBox{
@@ -26,6 +28,7 @@ html, body{
 	border-bottom-style: solid;
 	border-color: var(--glassBorder);
 	border-width: 1px;
+	box-shadow: 0rem 1px 5px var(--darkerGlass);
 }
 
 .leftBox{
@@ -44,6 +47,7 @@ html, body{
 	border-right-style: solid;
 	border-color: var(--glassBorder);
 	border-width: 1px;
+	border-bottom-right-radius: 2.5rem;
 }
 
 .rightBox{
@@ -67,7 +71,7 @@ html, body{
 
 .footer{
 	background-color: rgb(15, 15, 15);
-	background-color: var(--darkGlass);
+	background-color: var(--darkerGlass);
   width: 100%;
   height: 2rem;
   padding: 0px;
