@@ -1,0 +1,169 @@
+html, body{
+    height: 100%;
+		background-color: #FAFAFA;
+		--darkerGlass : rgba(30, 30, 30, 0.8);
+		--darkGlass : rgba(250, 250, 250, .85);
+		--mediumGlass: rgba(225, 225, 225, 0.75);
+		--lightGlass: rgba(250, 250, 250, 0.75);
+		--primaryColor: rgb(61, 133, 80);
+		--secondaryColor: rgb(55, 163, 84);
+		--glassBorder: rgba(250,250,250,0.5);
+}
+
+.titleBox{
+	background-color: var(--lightGlass);
+  width: 100%;
+  height: 4rem;
+  top: 0;
+  padding: 0px;
+  display: flex;
+  z-index: 998;
+  position: fixed;
+	left: 0;
+	overflow: hidden;
+	backdrop-filter: blur(5px);
+	border-style: none;
+	border-bottom-style: solid;
+	border-color: var(--glassBorder);
+	border-width: 1px;
+}
+
+.leftBox{
+	width: 40%;
+	height: 37rem;
+  float: left;
+	background-color: var(--mediumGlass);
+	margin: 0px;
+	margin-top: -2px;
+	position: absolute;
+	z-index: 48;
+	padding: 0px;
+	backdrop-filter: blur(5px);
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: solid;
+	border-color: var(--glassBorder);
+	border-width: 1px;
+}
+
+.rightBox{
+	width: 65%;
+	height: 37rem;
+  float: left;
+	background-color: var(--secondaryColor);
+	margin: 0px;
+	position: absolute;
+	z-index: 44;
+	margin-left: 35%;
+	padding: 0px;
+}
+
+.floatContainer{
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 2.5rem;
+	height: 90rem;
+}
+
+.footer{
+	background-color: rgb(15, 15, 15);
+	background-color: var(--darkGlass);
+  width: 100%;
+  height: 2rem;
+  padding: 0px;
+  display: flex;
+  font-size: 20px;
+  font-family: Mplus2pLi;
+  color: var(--primaryColor);
+	position: absolute;
+  z-index: 998;
+  bottom: 0;
+}
+
+.pageContainer{
+	position: relative;
+  min-height: 100vh;
+}
+
+#headerName{
+	color: var(--primaryColor);
+	font-family: Mplus2pReg;
+	font-size: 3rem;
+	margin-top: 0.7rem;
+	margin-left: 0.5rem;
+	text-decoration: none;
+	opacity: 100;
+	z-index: 999;
+	filter: none;
+}
+
+@font-face{
+	font-family: Mplus2pReg;
+	src:url(fonts/mplus-2p-regular.ttf);
+}
+
+@font-face{
+	font-family: Mplus2pLi;
+	src:url(fonts/mplus-2p-light.ttf);
+}
+
+@font-face{
+	font-family: Mplus1pLi;
+	src:url(fonts/mplus-1p-light.ttf);
+}
+
+.headerItem{
+	color: var(--primaryColor);
+	font-family: Mplus2pLi;
+	font-size: 1.3rem;
+	margin-top: 2rem;
+	margin-left: 2.5rem;
+	text-decoration: none;
+	opacity: 100;
+}
+
+h2{
+	color: var(--secondaryColor);
+	font-family: Mplus2pReg;
+	text-decoration: none;
+	opacity: 100;
+}
+
+.leftBoxContent{
+	margin-top: 6rem;
+	margin-left: 2rem;
+	font-family: Mplus2pReg;
+}
+
+.leftBoxContent h2{
+	font-size: 2rem;
+}
+
+.leftBoxContent p{
+	font-size: 1rem;
+	margin-top: 2rem;
+	margin-left: 1.2rem;
+	color: var(--secondaryColor);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	opacity: 100;
+	width: 80%;
+	line-height: 1.2rem;
+}
+
+.footer a{
+	margin-left: 2rem;
+	font-size: 0.7rem;
+	margin-top: 0.6rem;
+	color: var(--primaryColor);
+}
+
+.sectionHeader{
+	color: var(--primaryColor);
+	top: 39rem;
+	font-size: 3rem;
+	font-family: Mplus2pReg;
+	position: absolute;
+	text-align: center;
+	margin-left: 32%;
+}
