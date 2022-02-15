@@ -44,7 +44,7 @@ html, body{
 	border-bottom-style: solid;
 	border-color: var(--glassBorder);
 	border-width: 1px;
-	box-shadow: 0rem 5px 8px var(--darkerGlass);
+	box-shadow: 0rem 0.2rem 8px var(--darkerGlass);
 }
 
 .leftBox{
@@ -64,7 +64,7 @@ html, body{
 	border-color: var(--glassBorder);
 	border-width: 1px;
 	border-bottom-right-radius: 2.5rem;
-	box-shadow: 2px 5px 8px var(--darkerGlass);
+	box-shadow: 0.1rem 0.4rem 8px var(--darkerGlass);
 }
 
 .rightBox{
@@ -102,7 +102,7 @@ html, body{
   z-index: 998;
   bottom: 0;
 	border-top: var(--glassBorder);
-	box-shadow: 0px -5px 8px var(--darkerGlass);
+	box-shadow: 0px -0.2rem 8px var(--darkerGlass);
 }
 
 .pageContainer{
