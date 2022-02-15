@@ -100,7 +100,7 @@ html, body{
   font-size: 0.6rem;
   font-family: Light;
   color: var(--primaryColor);
-	position: absolute;
+	/*position: absolute;*/
   z-index: 998;
   bottom: 0;
 	border-top: var(--glassBorder);
@@ -173,11 +173,19 @@ h2{
 
 .sectionHeader{
 	color: var(--primaryColor);
-	top: 39rem;
 	font-size: 3rem;
 	font-family: Thin;
-	position: absolute;
 	text-align: center;
-	margin-left: 32%;
+	float: center;
 }
 
+.section{
+	top: 0;
+	position: relative;
+	background-color: red;
+	width: 100%;
+}
+
+a:hover{
+	filter: brightness(0.75);
+}
