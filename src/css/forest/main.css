@@ -39,6 +39,7 @@ html, body{
   position: fixed;
 	left: 0;
 	overflow: hidden;
+	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 	border-style: none;
 	border-bottom-style: solid;
@@ -57,6 +58,7 @@ html, body{
 	position: absolute;
 	z-index: 48;
 	padding: 0px;
+	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 	border-style: solid;
 	border-left-style: none;
@@ -178,3 +180,4 @@ h2{
 	text-align: center;
 	margin-left: 32%;
 }
+
