@@ -72,6 +72,8 @@ html, body{
 	height: 37rem;
   float: left;
 	background-color: var(--secondaryColor);
+	background-image: url(images/mistyimage.jfif);
+	border-bottom-left-radius: 2.5rem;
 	margin: 0px;
 	position: absolute;
 	z-index: 44;
