@@ -95,8 +95,8 @@ html, body{
   height: 2rem;
   padding: 0px;
   display: flex;
-  font-size: 20px;
-  font-family: Mplus2pLi;
+  font-size: 0.6rem;
+  font-family: Light;
   color: var(--primaryColor);
 	position: absolute;
   z-index: 998;
