@@ -74,7 +74,6 @@ html, body{
   font-size: 20px;
   font-family: Mplus2pLi;
   color: white;
-	position: absolute;
   z-index: 998;
   bottom: 0;
 }
@@ -152,7 +151,7 @@ h2{
 
 .footer a{
 	margin-left: 2rem;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	margin-top: 0.6rem;
 	color: var(--primaryColor);
 }
