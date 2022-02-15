@@ -48,6 +48,7 @@ html, body{
 	border-color: var(--glassBorder);
 	border-width: 1px;
 	border-bottom-right-radius: 2.5rem;
+	box-shadow: 1px 0px 5px var(--darkerGlass);
 }
 
 .rightBox{
@@ -71,7 +72,7 @@ html, body{
 
 .footer{
 	background-color: rgb(15, 15, 15);
-	background-color: var(--darkerGlass);
+	background-color: var(--lightGlass);
   width: 100%;
   height: 2rem;
   padding: 0px;
@@ -82,6 +83,8 @@ html, body{
 	position: absolute;
   z-index: 998;
   bottom: 0;
+	border-top: var(--glassBorder);
+	box-shadow: 0px 1px 5px var(--darkerGlass);
 }
 
 .pageContainer{
