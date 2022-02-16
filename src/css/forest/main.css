@@ -235,4 +235,11 @@ a:active{
 	width: 50px;
 	position: absolute;
 
+	animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+		to {
+    transform: rotate(360deg);
+  }	
 }
