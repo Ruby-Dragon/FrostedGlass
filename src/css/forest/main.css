@@ -206,5 +206,13 @@ h2{
 }
 
 a:hover{
-	filter: brightness(0.75);
+	filter: brightness(0.60);
+	webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#headerName:hover{
+	filter: brightness(1.25);
+	webkit-transform: scale(1);
+	transform: scale(1);
 }
