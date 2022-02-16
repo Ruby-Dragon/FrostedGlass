@@ -116,7 +116,7 @@ html, body{
 	color: var(--primaryColor);
 	font-family: Reg;
 	font-size: 3rem;
-	margin-top: 0.7rem;
+	margin-top: .4rem;
 	margin-left: 0.5rem;
 	text-decoration: none;
 	opacity: 100;
@@ -128,10 +128,10 @@ html, body{
 	color: var(--primaryColor);
 	font-family: Thin;
 	font-size: 1.3rem;
-	margin-top: 2rem;
 	margin-left: 2.5rem;
 	text-decoration: none;
 	opacity: 100;
+	margin-top: 2.1rem;
 }
 
 h2{
