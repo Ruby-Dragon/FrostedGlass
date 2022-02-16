@@ -211,8 +211,20 @@ a:hover{
 	transform: scale(1.1);
 }
 
+a:active{
+	filter: brightness(1.2);
+	webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 #headerName:hover{
 	filter: brightness(1.25);
+	webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#headerName:active{
+	filter: brightness(0.8);
 	webkit-transform: scale(1);
 	transform: scale(1);
 }
