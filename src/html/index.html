@@ -5,8 +5,17 @@
 		<title>FrostedGlass - Home</title>
 		<link rel= "stylesheet" href = "../css/forest/main.css">
 		<link rel= "stylesheet" href = "../css/forest/cssreset.css">
-	</head>
 
+		<script type="text/javascript" src = "../js/scrollables.js"></script>
+
+		<script>
+			window.addEventListener('scroll', () => {
+  			document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+			}, false);
+		</script>
+		
+	</head>
+		
 	<body>
 
 		<div class = "pageContainer">
