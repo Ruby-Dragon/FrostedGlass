@@ -184,6 +184,8 @@ h2{
 	position: relative;
 	width: 100%;
 	margin-bottom: 1rem;
+	color: var(--secondaryColor);
+	font-family: Light;
 }
 
 .section p{
@@ -194,6 +196,13 @@ h2{
 	font-size: 1.5rem;
 	width: 55%;
 	line-height: 2rem;
+}
+
+.section h3{
+	color: var(--secondaryColor);
+	margin-left: 4rem;
+	margin-top: 2rem;
+	font-size: 2.3rem;
 }
 
 a:hover{
