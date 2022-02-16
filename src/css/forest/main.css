@@ -50,7 +50,7 @@ html, body{
 
 .leftBox{
 	width: 40%;
-	height: 37rem;
+	height: 36rem;
   float: left;
 	background-color: var(--mediumGlass);
 	margin: 0px;
@@ -71,7 +71,7 @@ html, body{
 
 .rightBox{
 	width: 65%;
-	height: 37rem;
+	height: 36rem;
   float: left;
 	background-color: var(--secondaryColor);
 	background-image: url(images/mistyimage.jfif);
@@ -87,7 +87,7 @@ html, body{
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 2.5rem;
-	height: 90rem;
+	height: 36rem;
 }
 
 .footer{
