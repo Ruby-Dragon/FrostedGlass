@@ -234,12 +234,12 @@ a:active{
 	height: 50px;
 	width: 50px;
 	position: absolute;
+	overflow-x: hidden;
 
-	animation: rotate 2s linear infinite;
+	animation: moveLeft 2s linear infinite;
 }
 
-@keyframes rotate {
-		to {
-    transform: rotate(360deg);
-  }	
+@keyframes moveLeft{
+	0% {left: 0%;}
+  100% {left: 100%;}
 }
