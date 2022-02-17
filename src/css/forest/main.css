@@ -247,7 +247,7 @@ a:active{
 	top: 2rem;
 
 	animation: moveRight 2s linear infinite;
-	/*animation: paused;*/
+	animation: paused;
 }
 
 @keyframes moveRight{
