@@ -230,8 +230,9 @@ a:active{
 }
 
 .scrollContainer{
-	width: 40%;
+	width: 30%;
 	right: 0;
+	height: 100%;
 	position: absolute;
 	top: 0;
 	overflow: hidden;
@@ -243,11 +244,14 @@ a:active{
 	width: 50px;
 	position: relative;
 	overflow: hidden;
+	top: 2rem;
 
 	animation: moveRight 2s linear infinite;
+	/*animation: paused;*/
 }
 
 @keyframes moveRight{
-	0% {left: 0%;}
-  100% {left: 100%;}
+	to{
+		transform: translateX(30vw);
+	}
 }
