@@ -236,10 +236,10 @@ a:active{
 	position: absolute;
 	overflow-x: hidden;
 
-	animation: moveLeft 2s linear infinite;
+	animation: moveRight 2s linear infinite;
 }
 
-@keyframes moveLeft{
+@keyframes moveRight{
 	0% {left: 0%;}
   100% {left: 100%;}
 }
