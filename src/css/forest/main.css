@@ -229,12 +229,20 @@ a:active{
 	transform: scale(1);
 }
 
+.scrollContainer{
+	width: 40%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+
 .scrollable{
 	background-color: red;
 	height: 50px;
 	width: 50px;
-	position: absolute;
-	overflow-x: hidden;
+	position: relative;
+	overflow: hidden;
 
 	animation: moveRight 2s linear infinite;
 }
