@@ -4,7 +4,7 @@ html, body{
 		--darkerGlass : rgba(200, 200, 200, 0.8);
 		--darkGlass : rgba(250, 250, 250, .85);
 		--mediumGlass: rgba(225, 225, 225, 0.75);
-		--lightGlass: rgba(250, 250, 250, 0.75);
+		--lightGlass: rgba(250, 250, 250, 0.65);
 		--primaryColor: rgb(61, 133, 80);
 		--secondaryColor: rgb(55, 163, 84);
 		--glassBorder: rgba(250,250,250,0.5);
