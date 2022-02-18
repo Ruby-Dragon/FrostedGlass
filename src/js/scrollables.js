@@ -5,7 +5,7 @@ function reveal() {
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 500;
+    var elementVisible = 300;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("scrolled");
