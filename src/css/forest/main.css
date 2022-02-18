@@ -245,13 +245,13 @@ a:active{
 	position: relative;
 	overflow: hidden;
 	top: 2rem;
+	transition: 2s all ease;
+	transform: translateX(150px);
 
-	animation: moveRight 2s linear infinite;
-	animation: paused;
+	opacity: 0%;
 }
 
-@keyframes moveRight{
-	to{
-		transform: translateX(30vw);
-	}
+.active{
+	opacity: 100%;
+	transform: translateX(0);
 }
