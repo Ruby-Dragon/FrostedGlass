@@ -249,6 +249,7 @@ a:active{
 	top: 2rem;
 	transition: 1.5s all ease;
 	transform: translateX(40rem);
+	margin-bottom: 8rem;
 
 	opacity: 0%;
 }
