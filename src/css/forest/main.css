@@ -246,7 +246,7 @@ a:active{
 	overflow: hidden;
 	top: 2rem;
 	transition: 2s all ease;
-	transform: translateX(150px);
+	transform: translateX(40rem);
 
 	opacity: 0%;
 }
