@@ -1,0 +1,18 @@
+.section p{
+	margin-top: 2rem;
+	margin-left: 1vh;
+	text-align: center;
+	color: var(--secondaryColor);
+	font-family: Light;
+	font-size: 1.4rem;
+	width: 98%;
+	line-height: 2rem;
+}
+
+.section h3{
+	color: var(--secondaryColor);
+	margin-left: 0rem;
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 2.3rem;
+}
