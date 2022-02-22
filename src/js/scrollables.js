@@ -12,7 +12,10 @@ function reveal() {
     var elementVisible = 300;
 
 		//if it has reached the height...
-    if (elementTop < windowHeight - elementVisible) {
+		var style = window.getComputedStyle(reveals[i]);
+		var scrollPercent = parseFloat(style.getPropertyValue('--scrollPercent'));
+		console.log(scrollPercent + ": height");
+    if (elementTop < windowHeight * scrollPercent) {
 			//...have it be revealed...
       reveals[i].classList.add("scrolled");
 			//console.log(reveals[i].classList);
