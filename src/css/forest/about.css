@@ -1,7 +1,6 @@
 .section p{
 	margin-top: 2rem;
-	margin-left: 1vh;
-	text-align: center;
+	margin-left: 1vw;
 	color: var(--secondaryColor);
 	font-family: Light;
 	font-size: 1.4rem;
