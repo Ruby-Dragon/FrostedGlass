@@ -81,6 +81,8 @@ html, body{
 	z-index: 44;
 	margin-left: 35%;
 	padding: 0px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .floatContainer{
