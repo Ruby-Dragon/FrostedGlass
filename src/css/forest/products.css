@@ -40,3 +40,10 @@ img{
 	background-color: red;
 	position: relative;
 }
+
+.product h2{
+	margin-left: 16rem;
+	top: -9rem;
+	font-size: 2rem;
+	position: relative;
+}
