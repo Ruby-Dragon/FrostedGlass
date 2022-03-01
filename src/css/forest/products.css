@@ -47,3 +47,11 @@ img{
 	font-size: 2rem;
 	position: relative;
 }
+
+.product p{
+	margin-left: 16rem;
+	top: -8rem;
+	width: 80%;
+	font-size: 1.2rem;
+	position: relative;
+}
