@@ -45,3 +45,19 @@ img{
 	font-size: 1.2rem;
 	position: relative;
 }
+
+.section a{
+	text-decoration: none;
+}
+
+.product:hover{
+	filter: brightness(0.75);
+	webkit-transform: scale(101%);
+	transform: scale(101%);
+}
+
+.product:active{
+	filter: brightness(1.2);
+	webkit-transform: scale(101%);
+	transform: scale(101%);
+}
