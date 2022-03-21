@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add page for product">
+    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add more content to chocolate-chip-cookie.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/forest/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/forest/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/chocolate-chip-cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/chocolate-chip-cookie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,8 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646768903237</updated>
       <workItem from="1646768906477" duration="1460000" />
-      <workItem from="1647631005122" duration="815000" />
-      <workItem from="1647648532352" duration="465000" />
+      <workItem from="1647631005122" duration="1132000" />
+      <workItem from="1647886689786" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="add page for product">
       <created>1646770292218</created>
@@ -57,7 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646770292218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add link to product page in products.html in each product box">
+      <created>1647631933674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647631933674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add more content to chocolate-chip-cookie.html">
+      <created>1647632133793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632133793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +91,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add page for product" />
-    <option name="LAST_COMMIT_MESSAGE" value="add page for product" />
+    <MESSAGE value="add link to product page in products.html in each product box" />
+    <MESSAGE value="add more content to chocolate-chip-cookie.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more content to chocolate-chip-cookie.html" />
   </component>
 </project>
