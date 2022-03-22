@@ -274,21 +274,21 @@ a:active {
     float: left;
     text-align: center;
     background-color: var(--mediumGlass);
-    margin: 1rem 0px;
+    margin: 1rem 0;
     z-index: 48;
-    padding: 0px;
+    padding: 0;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-style: solid;
     border-color: var(--glassBorder);
     border-width: 1px;
-    border-radius: 2.5rem;
+    border-radius: 1.5rem;
     box-shadow: 0.1rem 0.4rem 8px var(--darkerGlass);
 }
 
 .translucentBox img{
     object-fit: contain;
-    margin-top: 2%;
+    margin-top: 3%;
     max-height: 96%;
     max-width: 96%;
     position: relative;
