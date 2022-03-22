@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="fix translucent box">
-      <change beforePath="$PROJECT_DIR$/src/css/forest/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/forest/main.css" afterDir="false" />
+    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="fix page container not filling page">
+      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <workItem from="1646768906477" duration="1460000" />
       <workItem from="1647631005122" duration="1132000" />
       <workItem from="1647886689786" duration="2501000" />
-      <workItem from="1647972927651" duration="2665000" />
+      <workItem from="1647972927651" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="add page for product">
       <created>1646770292218</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647975503694</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix page container not filling page">
+      <created>1647975962078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647975962078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +172,7 @@
     <MESSAGE value="maybe?" />
     <MESSAGE value="add pages link to README.md" />
     <MESSAGE value="fix translucent box" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix translucent box" />
+    <MESSAGE value="fix page container not filling page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix page container not filling page" />
   </component>
 </project>
