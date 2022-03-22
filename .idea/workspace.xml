@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="try again to deploy on pages">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="maybe?">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <workItem from="1646768906477" duration="1460000" />
       <workItem from="1647631005122" duration="1132000" />
       <workItem from="1647886689786" duration="2501000" />
-      <workItem from="1647972927651" duration="759000" />
+      <workItem from="1647972927651" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="add page for product">
       <created>1646770292218</created>
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647973547326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="i am confusion">
+      <created>1647973701207</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647973701207</updated>
+    </task>
+    <task id="LOCAL-00010" summary="maybe?">
+      <created>1647973880726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647973880726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +146,8 @@
     <MESSAGE value="add redirect page" />
     <MESSAGE value="be dumn't" />
     <MESSAGE value="try again to deploy on pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="try again to deploy on pages" />
+    <MESSAGE value="i am confusion" />
+    <MESSAGE value="maybe?" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe?" />
   </component>
 </project>
