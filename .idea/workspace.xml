@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add fakenutritionfacts.webp" />
+    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add redirect page">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +48,7 @@
       <workItem from="1646768906477" duration="1460000" />
       <workItem from="1647631005122" duration="1132000" />
       <workItem from="1647886689786" duration="2501000" />
+      <workItem from="1647972927651" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="add page for product">
       <created>1646770292218</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647890146113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add redirect page">
+      <created>1647973177416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647973177416</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +115,7 @@
     <MESSAGE value="add more content to chocolate-chip-cookie.html" />
     <MESSAGE value="transucent box and images for it (not really done)" />
     <MESSAGE value="add fakenutritionfacts.webp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fakenutritionfacts.webp" />
+    <MESSAGE value="add redirect page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redirect page" />
   </component>
 </project>
