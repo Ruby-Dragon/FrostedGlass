@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add more content to chocolate-chip-cookie.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/forest/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/forest/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/chocolate-chip-cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/chocolate-chip-cookie.html" afterDir="false" />
-    </list>
+    <list default="true" id="b22392d2-bf2c-4c3b-bbb6-8beacd56a989" name="Changes" comment="add fakenutritionfacts.webp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
       <updated>1646768903237</updated>
       <workItem from="1646768906477" duration="1460000" />
       <workItem from="1647631005122" duration="1132000" />
-      <workItem from="1647886689786" duration="2392000" />
+      <workItem from="1647886689786" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="add page for product">
       <created>1646770292218</created>
@@ -72,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647632133793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="transucent box and images for it (not really done)">
+      <created>1647890102798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647890102798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add fakenutritionfacts.webp">
+      <created>1647890146113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647890146113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +103,8 @@
     <MESSAGE value="add page for product" />
     <MESSAGE value="add link to product page in products.html in each product box" />
     <MESSAGE value="add more content to chocolate-chip-cookie.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more content to chocolate-chip-cookie.html" />
+    <MESSAGE value="transucent box and images for it (not really done)" />
+    <MESSAGE value="add fakenutritionfacts.webp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fakenutritionfacts.webp" />
   </component>
 </project>
