@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
 
 	<head>
 		<title>FrostedGlass - Products</title>
@@ -8,6 +8,7 @@
 		<link rel= "stylesheet" href = "../css/forest/cssreset.css">
 
 		<script type="text/javascript" src = "../js/scrollables.js"></script>
+		<script type="text/javascript" src="../js/search.js"></script>
 		
 	</head>
 		
@@ -22,7 +23,7 @@
 			<a class = "headerItem" href = "login.html">Log in</a>
 			<a class = "headerItem" href = "signup.html">Sign up</a>
 				<div class = "searchBar">
-					<input type="text" placeholder="Search">
+					<input type="text" placeholder="Search" id="productSearch" onkeyup="searchProducts()">
 				</div>
 			</div>
 
@@ -45,7 +46,7 @@
 
 			</div>
 
-			<div class = "section">
+			<div class = "section" id="searchSection">
 
 				<h2 class = "sectionHeader">All Products:</h2>
 
