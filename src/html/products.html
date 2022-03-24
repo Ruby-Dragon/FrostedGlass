@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
 
 	<head>
 		<title>FrostedGlass - Products</title>
@@ -8,6 +8,7 @@
 		<link rel= "stylesheet" href = "../css/forest/cssreset.css">
 
 		<script type="text/javascript" src = "../js/scrollables.js"></script>
+		<script type="text/javascript" src="../js/search.js"></script>
 		
 	</head>
 		
@@ -21,6 +22,9 @@
 			<a class = "headerItem" href = "about.html">About</a>
 			<a class = "headerItem" href = "login.html">Log in</a>
 			<a class = "headerItem" href = "signup.html">Sign up</a>
+				<div class = "searchBar">
+					<input type="text" placeholder="Search" id="productSearch" onkeyup="searchProducts()">
+				</div>
 			</div>
 
 			<div class = "floatContainer">
@@ -29,7 +33,10 @@
 					<div class = "leftBoxContent">
 						<h2>Products!</h2>
 						<p>This is where you can put products or projects to show off.</p>
-						<p>I am still working on this one!</p>
+						<p>Each Product has its own box. The entire box is the link to that specific product's page. When hovered, the box gets darker and grows slightly to indicate that it is selected. When clicked, it will open the specific page for that product.</p>
+						<p>Add as many products as you want, and edit their content to whatever you want.</p>
+						<p>These products do not have to be used for products, they can also be used for projects in a portfolio, basically whatever you want to have in a list of links to other specific pages.</p>
+						<p>Utilizing a search feature would be ideal if you have enough products here to make the user experience easier.</p>
 					</div>
 				</div>
 
@@ -39,7 +46,7 @@
 
 			</div>
 
-			<div class = "section">
+			<div class = "section" id="searchSection">
 
 				<h2 class = "sectionHeader">All Products:</h2>
 
@@ -53,14 +60,21 @@
 				<a href = "chocolate-chip-cookie.html">
 					<div class="product">
 						<img src = "../images/cookies.jpg" alt="cookies">
-						<h2>Chocolate Chip Cookies</h2>
+						<h2>Delightful Baked Buttery Wheat Circles</h2>
 						<p>Wonderful chocolate chip cookies, made with all natural ingredients, real sugar, and the best chocolate chips out there! Baked in the USA with no added preservatives! Fresh, chewy and absolutely delicious! (box is link to page)</p>
 					</div>
 				</a>
 				<a href = "chocolate-chip-cookie.html">
 					<div class="product">
 						<img src = "../images/cookies.jpg" alt="cookies">
-						<h2>Chocolate Chip Cookies</h2>
+						<h2>Delicious Cookies</h2>
+						<p>Wonderful chocolate chip cookies, made with all natural ingredients, real sugar, and the best chocolate chips out there! Baked in the USA with no added preservatives! Fresh, chewy and absolutely delicious! (box is link to page)</p>
+					</div>
+				</a>
+				<a href = "chocolate-chip-cookie.html">
+					<div class="product">
+						<img src = "../images/cookies.jpg" alt="cookies">
+						<h2>Absolutely Scrumptious Flat Baked Wheat</h2>
 						<p>Wonderful chocolate chip cookies, made with all natural ingredients, real sugar, and the best chocolate chips out there! Baked in the USA with no added preservatives! Fresh, chewy and absolutely delicious! (box is link to page)</p>
 					</div>
 				</a>
@@ -74,7 +88,7 @@
 					<div class = "scrollable" style="--scrollPercent: .85;"></div>
 				</div>
 			</div>
-
+		</div>
 			<div class = "footer">
 				<a href = "index.html">Home</a>
 				<a href = "about.html">About us</a>
@@ -83,8 +97,6 @@
 				<a href = "login.html">Accounts</a>
 				<a href = "privacypolicy.html">Privacy Policy</a>
 			</div>
-		</div>
-
 	</body>
 
 </html>

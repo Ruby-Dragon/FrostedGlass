@@ -61,3 +61,23 @@ img{
 	webkit-transform: scale(101%);
 	transform: scale(101%);
 }
+
+.searchBar{
+	height: 52%;
+	width: 20rem;
+	margin-left: 2.5rem;
+	margin-top: 1.4rem;
+}
+
+.searchBar input{
+	font-family: Light;
+	border: none;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+	padding-left: 1rem;
+	background-color: var(--mediumGlass);
+}
+.searchBar input:focus{
+	outline: var(--primaryColor) solid 1px;
+}
