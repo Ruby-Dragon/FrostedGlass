@@ -299,3 +299,8 @@ a:active {
     float:left;
     display:inline;
 }
+
+.translucentBox p{
+    float:left;
+    display:inline;
+}
