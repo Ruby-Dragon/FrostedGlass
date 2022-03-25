@@ -78,7 +78,6 @@ html, body {
     height: 36rem;
     float: left;
     background-color: var(--secondaryColor);
-    background-image: url(images/mistyimage.jfif);
     border-bottom-left-radius: 2.5rem;
     margin: 0px;
     position: absolute;
