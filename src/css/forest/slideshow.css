@@ -3,6 +3,8 @@
     height: 100%;
     display: none;
     border-bottom-left-radius: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .fade {
