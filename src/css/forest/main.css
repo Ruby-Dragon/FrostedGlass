@@ -69,7 +69,7 @@ html, body {
     border-right-style: solid;
     border-color: var(--glassBorder);
     border-width: 1px;
-    border-bottom-right-radius: 2.5rem;
+    border-bottom-right-radius: 2rem;
     box-shadow: 0.1rem 0.4rem 8px var(--darkerGlass);
 }
 
@@ -78,7 +78,7 @@ html, body {
     height: 36rem;
     float: left;
     background-color: var(--secondaryColor);
-    border-bottom-left-radius: 2.5rem;
+    border-bottom-left-radius: 2rem;
     margin: 0px;
     position: absolute;
     z-index: 44;

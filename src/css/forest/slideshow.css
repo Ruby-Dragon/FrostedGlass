@@ -2,14 +2,18 @@
     width: 100%;
     height: 100%;
     display: none;
+    border-bottom-left-radius: 2rem;
 }
 
 .fade {
     animation-name: fade;
-    animation-duration: 2.5s;
+    animation-duration: 6s;
 }
 
 @keyframes fade {
     from {opacity: 0}
-    to {opacity: 1}
+    25% {opacity: 1}
+    80% {opacity: 1}
+    90% {opacity: 0}
+    to {opacity: 0}
 }
