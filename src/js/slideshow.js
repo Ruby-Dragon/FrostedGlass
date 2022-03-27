@@ -1,24 +1,20 @@
 let currentSlide = 1;
 showSlides(1)
 
-const nextslide = setInterval(plusSlides(1), 5000);
+const nextslide = setInterval(plusSlides, 5000);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
+function plusSlides() {
+    showSlides(currentSlide += 1);
 }
 
 function showSlides(n) {
     let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    let slides = document.getElementsByClassName("slide");
+    if (n > slides.length) {currentSlide = 1}
+    if (n < 1) {currentSlide = slides.length}
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    console.log(slides);
+    slides[currentSlide-1].style.display = "block";
 }
