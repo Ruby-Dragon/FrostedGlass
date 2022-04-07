@@ -196,6 +196,7 @@ h2 {
     margin-bottom: 1rem;
     color: var(--secondaryColor);
     font-family: Light;
+    overflow: hidden;
 }
 
 .section p {
