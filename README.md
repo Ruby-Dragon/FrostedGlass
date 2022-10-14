@@ -1,7 +1,7 @@
 # FrostedGlass (WIP) 
 Modern Website Styling and Layout
 
-not quite done, so do not ask me about anything yet >:(
+not quite done
 
 ## Github Pages Link: 
 
